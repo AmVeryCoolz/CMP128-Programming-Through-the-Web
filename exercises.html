@@ -8,18 +8,35 @@
                 background-color: orange;
                 
             }
+
+            ul.custom-bullets li{
+               list-style-type: none;
+                    }
+            ul.custom-bullets li::before{
+                  content: '*';
+                  color: green;
+                  position: absolute;
+                  left:30px;
+                    }
         </style>
+        
     </head>
     <body>
+         <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="exercises.html">Exercises</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
         <h1>
             Bienvendo a meu Exercise Page
         </h1>
-        <p>
-            Do push ups 20x
-            Then do jumping jacks
-            Then sleep
-            The run a 10k
-            Finally sleep
-        </p>
+        <li>Do 20x Push ups</li>
+         <li>Do jumping jacks for 20 hours</li>
+         <li>sleep</li>
+         <li>but before you wake up run a 10k</li>
+         <li>then finally finish of the day with a nice and easy swim across the atlantic ocean </li>
+         <li>repeat for the next 2 days</li>
     </body>
 </html>
