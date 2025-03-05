@@ -5,4 +5,4 @@ function logFirstQuote()
   let randomNumber= Math.floor(Math.random()*fruits.length);
   console.log(fruits[0]);
 }
-logFirstFruit();
+logFirstQuote();
