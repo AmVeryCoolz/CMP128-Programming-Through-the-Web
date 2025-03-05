@@ -6,6 +6,6 @@ body{
 
 #myButton {
   color: #000;
-  min-height:100px;
-  min-width:300px;
+  min-height:50px;
+  min-width:150px;
 }
