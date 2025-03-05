@@ -1,10 +1,10 @@
-let quotes = { "You are Amazing!!","GOOD JOB!!!","Never gonna give you up, Never gonna let you down","Oranges"};
-let quote = quotes[0]; //first fruit
-function logFirstQuote()
-{
-  let randomNumber= Math.floor(Math.random()*fruits.length);
-  console.log(fruits[0]);
-  
-  document.getElementById('output').innerHTML;
-}
-logFirstQuote();
+let btn = document.getElementById('btn');
+let output = document.getElementById('output');
+
+let quotes = { "You are Amazing!!","GOOD JOB!!!","Never give up","Reach for the stars and you'll get far"};
+
+btn.addEventListener('click',function(){
+  var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+  output.innerHTML = randomQuote;
+})
+
