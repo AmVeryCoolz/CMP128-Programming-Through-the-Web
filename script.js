@@ -9,6 +9,6 @@ function displayQuotes(){
     let randomQuotesIndex = Math.floor(Math.random()*quotes.length);
     let output=quotes[randomQuotesIndex];
     let quotesDiveElements= document.getElementById("output");
-    quotesDiveElement.innerHTML=output;   
+    quotesDiveElements.innerHTML=output;   
 }
 //plz work im tired
