@@ -2,10 +2,12 @@
    h1{
      color: red;
    }
+}
 @media all(max-width:1000px){
   h1{
     color: black;
   }
+}
 
 body{
   background-color: aqua;
