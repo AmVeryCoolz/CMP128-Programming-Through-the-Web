@@ -2,7 +2,8 @@ let quotes = [
     "You are Amazing!!",
     "Good job",
     "Never give up", 
-    "Reach for the stars and you will get far"
+    "Reach for the stars and you will get far",
+    "You are enough"
 ];
 
 function displayQuotes(){
@@ -12,3 +13,4 @@ function displayQuotes(){
     quotesDiveElements.innerHTML=output;   
 }
 //plz work im tired
+//hurry up man I CANT TAKE THIS ANYMORE
