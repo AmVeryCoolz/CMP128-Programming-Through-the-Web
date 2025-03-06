@@ -1,6 +1,6 @@
-@media all and (max-width: 2000px){
-   h1{
-     color: red;
+@media all and (max-width: 768px){
+   body{
+     color: orange;
    }
 }
 
