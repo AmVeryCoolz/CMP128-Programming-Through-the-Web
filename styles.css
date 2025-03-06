@@ -1,3 +1,14 @@
+@media (min-width:480px){
+  body{
+  background-color: lightgreen;
+    }
+  }
+@media (min-width:960px){
+  body{
+  background-color: beige; 
+    }
+  }
+
 body{
   background-color: aqua;
   color: #ffffff;
