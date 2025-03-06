@@ -1,8 +1,10 @@
 @media all(max-width:480px){
-  text-color: red;
-  }
+   h1{
+     color: red;
+   }
 @media all(max-width:1000px){
-  text-color: black;
+  h1{
+    color: black;
   }
 
 body{
