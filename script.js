@@ -11,4 +11,4 @@ function displayQuotes(){
     let quotesDivElements= document.getElementById("output");
     quotesDivElement.innerHTML=output;   
 }
-
+//plz work im tired
