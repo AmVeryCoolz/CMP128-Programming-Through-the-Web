@@ -1,12 +1,8 @@
 @media all(max-width:480px){
-  body{
-  background-color: lightgreen;
-    }
+  text-color: red;
   }
 @media all(max-width:1000px){
-  body{
-  background-color: beige; 
-    }
+  text-color: black;
   }
 
 body{
