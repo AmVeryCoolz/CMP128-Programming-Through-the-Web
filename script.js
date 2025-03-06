@@ -7,8 +7,8 @@ let quotes = [
 
 function displayQuotes(){
     let randomQuotesIndex = Math.floor(Math.random()*quotes.length);
-    let myQuotes=quotes[randomQuotesIndex];
-    let quotesDiveElements= document.getElementById("myQuotes");
-    quotesDivElement.innerHTML=myQuotes;   
+    let output=quotes[randomQuotesIndex];
+    let quotesDiveElements= document.getElementById("output");
+    quotesDivElement.innerHTML=output;   
 }
 
